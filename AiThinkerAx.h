@@ -15,15 +15,7 @@
 #include "HardwareSerial.h"
 #include "SoftwareSerial.h"
 
-//#define DEBUG
-
-#ifdef DEBUG
-  #define DBGPrint(data) Serial.print(data)
-  #define DBGPrintln(data) Serial.println(data)
-#else
-  #define DBGPrint(data)
-  #define DBGPrintln(data)
-#endif
+#include "AiThinkerAx_Debug.h"
 
 class AiThinkerAx
 {

@@ -12,6 +12,7 @@ void setup() {
     Serial.println("OK");
 	}else{
     Serial.println("FAIL");
+    while(1);
 	}
 
   Serial.print("Send SMS... ");
